@@ -83,7 +83,7 @@ useradd -m vkill
 
 passwd vkill
 
-echo 'vkill ALL=(ALL) ALL' >> /etc/sudoers'
+echo '%vkill ALL=(ALL) NOPASSWD: ALL' >> /etc/sudoers'
 
 sync
 exit

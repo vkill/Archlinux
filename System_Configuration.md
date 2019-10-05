@@ -4,6 +4,12 @@
 
 https://wiki.archlinux.org/index.php/Installation_guide
 
+### Base packages
+
+```
+sudo pacman -S vim
+```
+
 ### Time zone
 
 ```
