@@ -6,6 +6,16 @@ https://wiki.archlinux.org/index.php/Xorg
 
 https://wiki.archlinux.org/index.php/KDE
 
+### Xorg
+
+```
+lspci | grep -e VGA -e 3D
+```
+
+```
+sudo pacman -S xf86-video-vesa xf86-video-intel
+```
+
 ### Plasma
 
 ```
