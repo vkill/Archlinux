@@ -9,15 +9,15 @@ https://itsfoss.com/install-arch-linux/
 ### Make live USB
 
 ```
-wget https://mirrors.163.com/archlinux/iso/2019.10.01/archlinux-2019.10.01-x86_64.iso
+wget https://mirrors.163.com/archlinux/iso/2020.08.01/archlinux-2020.08.01-x86_64.iso
 
-wget https://mirrors.163.com/archlinux/iso/2019.10.01/sha1sums.txt
-grep archlinux-2019.10.01-x86_64.iso sha1sums.txt | sha1sum -c -
+wget https://mirrors.163.com/archlinux/iso/2020.08.01/sha1sums.txt
+grep archlinux-2020.08.01-x86_64.iso sha1sums.txt | sha1sum -c -
 rm -rf sha1sums.txt
 ```
 
 ```
-dd bs=4M if=archlinux-2019.10.01-x86_64.iso of=/dev/sdb status=progress oflag=sync
+dd bs=4M if=archlinux-2020.08.01-x86_64.iso of=/dev/sdb status=progress oflag=sync
 
 sync
 ```
@@ -79,11 +79,11 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 passwd
 
-useradd -m vkill
+useradd -m YOURUSERNAME
 
-passwd vkill
+passwd YOURUSERNAME
 
-echo '%vkill ALL=(ALL) NOPASSWD: ALL' >> /etc/sudoers'
+echo '%YOURUSERNAME ALL=(ALL) NOPASSWD: ALL' >> /etc/sudoers'
 
 sync
 exit

@@ -39,5 +39,5 @@ echo 'LANG=en_US.UTF-8' | sudo tee /etc/locale.conf
 ### hostname
 
 ```
-echo vkill-hostname | sudo tee /etc/hostname
+echo YOURUSERNAME-archlinux | sudo tee /etc/hostname
 ```

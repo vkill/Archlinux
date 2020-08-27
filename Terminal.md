@@ -32,6 +32,5 @@ DISABLE_AUTO_UPDATE="true"
 ```
 
 ```
-sudo usermod -s /bin/zsh root
-sudo usermod -s /bin/zsh vkill
+sudo usermod -s /bin/zsh YOURUSERNAME
 ```
