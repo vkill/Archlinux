@@ -9,7 +9,7 @@ https://wiki.archlinux.org/index.php/KDE
 ### Xorg
 
 ```
-lspci | grep -e VGA -e 3D
+sudo lspci | grep -e VGA -e 3D
 ```
 
 ```
@@ -33,6 +33,45 @@ sudo vim /etc/sddm.conf
 Session=plasma.desktop
 
 sudo systemctl enable sddm
-
-sudo systemctl start sddm
 ```
+
+### PCManFM
+
+```
+sudo pacman -S pcmanfm
+```
+
+### Nvidia
+
+```
+sudo pacman -S nvidia bbswitch
+
+sudo pacman -S opencl-nvidia
+
+sudo pacman -S nvidia-settings
+
+# Require archlinuxcn repo
+sudo pacman -S optimus-manager-qt
+
+sudo reboot
+```
+
+```
+optimus-manager-qt
+
+# change "startup mode" to "Nvidia"
+
+sudo reboot
+```
+
+```
+glxinfo | grep -i NVIDIA
+```
+
+### ARandR
+
+```
+sudo pacman -S arandr
+```
+
+Select 1600x900

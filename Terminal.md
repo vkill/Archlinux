@@ -8,6 +8,17 @@ sudo pacman -S terminator
 
 Preferences -> Profiles -> Command -> Enable "Run command as a login shell"
 
+Preferences -> Keybindings -> Update "switch_to_tab_x"
+
+### Common
+
+```
+vim ~/.xrc
+
+export VISUAL="vim"
+export EDITOR="vim"
+```
+
 ### Oh My Zsh
 
 ```
@@ -16,7 +27,7 @@ sudo pacman -S zsh zsh-completions
 
 ```
 # Require archlinuxcn repo
-pacman -S oh-my-zsh-git
+sudo pacman -S oh-my-zsh-git
 ```
 
 ```
@@ -26,11 +37,17 @@ vim ~/.zshrc
 
 ZSH_THEME="gnzh"
 
-DISABLE_AUTO_UPDATE="true"
-
-[ -f ~/.bashrc ] && source ~/.bashrc
+[ -f ~/.xrc ] && source ~/.xrc
 ```
 
 ```
 sudo usermod -s /bin/zsh YOURUSERNAME
+```
+
+### Bash
+
+```
+vim ~/.bashrc
+
+[ -f ~/.xrc ] && source ~/.xrc
 ```

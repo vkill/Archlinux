@@ -33,19 +33,30 @@ fdisk /dev/nvme0n1
 
 nvme0n1p1 100M EFI System
 nvme0n1p2 60G  Linux filesystem
+nvme0n1p3 xxG  Linux filesystem
 ```
 
 ```
 mkfs.fat -F32 /dev/nvme0n1p1
 mkfs.ext4 /dev/nvme0n1p2
+mkfs.ext4 /dev/nvme0n1p3
 ```
 
-Insert network cable into LAN port on the network router
-
 ```
+# LAN
+# Insert network cable into LAN port on the network router
+
 ip link
 
 dhcpcd enp0s31f6
+
+ping archlinux.org
+
+
+# WiFi
+# https://wiki.archlinux.org/index.php/Iwd
+
+iwctl --passphrase WIFI_PASSWORD station wlan0 connect WIFI_SSID
 
 ping archlinux.org
 ```
@@ -59,10 +70,13 @@ echo 'Server = http://mirrors.163.com/archlinux/$repo/os/$arch' > /etc/pacman.d/
 
 ```
 mount /dev/nvme0n1p2 /mnt
+
+mkdir -p /mnt/media/data
+mount /dev/nvme0n1p3 /mnt/media/data
 ```
 
 ```
-pacstrap /mnt base base-devel
+pacstrap /mnt base base-devel linux linux-firmware iwd vim
 ```
 
 ```
@@ -83,7 +97,7 @@ useradd -m YOURUSERNAME
 
 passwd YOURUSERNAME
 
-echo '%YOURUSERNAME ALL=(ALL) NOPASSWD: ALL' >> /etc/sudoers'
+echo '%YOURUSERNAME ALL=(ALL) NOPASSWD: ALL' >> /etc/sudoers
 
 sync
 exit
@@ -96,7 +110,10 @@ genfstab -U /mnt >> /mnt/etc/fstab
 ```
 sync
 
+umount /mnt/media/data
 umount /mnt
+
+sync
 
 reboot
 ```
