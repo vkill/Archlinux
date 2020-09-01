@@ -24,3 +24,6 @@ sudo pacman -S imagemagick
 sudo pacman -S protobuf
 ```
 
+```
+sudo pacman -S ruby
+```
