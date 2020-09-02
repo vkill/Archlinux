@@ -25,3 +25,7 @@ https://github.com/microsoft/vscode-remote-release/issues/1056
 #### rust-analyzer
 
 Configurate "Rust-analyzer: Server Path" to /usr/bin/rust-analyzer
+
+#### TabNine
+
+#### Markdown All in One
