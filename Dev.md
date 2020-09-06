@@ -1,4 +1,4 @@
-### Dev
+## Dev
 
 ```
 sudo pacman -S wget curl aria2 git tig
