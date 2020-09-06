@@ -53,6 +53,12 @@ sudo journalctl --no-pager -f -u trojan@1081
 sudo systemctl enable trojan@1081
 ```
 
+### v2ray
+
+```
+sudo pacman -S v2ray
+```
+
 ### proxychains
 
 ```
