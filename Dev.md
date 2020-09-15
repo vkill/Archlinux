@@ -27,3 +27,8 @@ sudo pacman -S protobuf
 ```
 sudo pacman -S ruby
 ```
+
+```
+sudo pacman -S nodejs yarn
+```
+
