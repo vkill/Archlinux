@@ -14,6 +14,8 @@ File > Preferences > Settings editor.formatOnSave to true
 
 ### Extensions
 
+* CodeLLDB
+
 #### Remote - SSH
 
 https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh
