@@ -47,3 +47,10 @@ Server = http://mirrors.tuna.tsinghua.edu.cn/arch4edu/$arch
 ```
 yaourt -Sy arch4edu-keyring
 ```
+
+### Tips
+
+```
+# Removing unused packages
+sudo pacman -Rns $(sudo pacman -Qtdq)
+```
