@@ -5,6 +5,10 @@ sudo pacman -S wget curl aria2 git tig
 ```
 
 ```
+sudo pacman -S gedit
+```
+
+```
 sudo pacman -S ansible
 ```
 
