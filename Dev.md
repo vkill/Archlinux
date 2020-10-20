@@ -36,3 +36,6 @@ sudo pacman -S ruby
 sudo pacman -S nodejs yarn
 ```
 
+```
+yaourt -S mongodb-compass
+```
