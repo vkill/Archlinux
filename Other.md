@@ -11,3 +11,10 @@ sudo pacman -S remmina libvncserver
 ```
 yaourt -S akira
 ```
+
+### ipa
+
+```
+sudo pacman -S libimobiledevice
+yaourt -S ideviceinstaller
+```
