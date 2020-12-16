@@ -17,4 +17,6 @@ yaourt -S akira
 ```
 sudo pacman -S libimobiledevice
 yaourt -S ideviceinstaller
+
+ideviceinstaller -i ~/Downloads/xxx.ipa
 ```
