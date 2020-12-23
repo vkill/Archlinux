@@ -26,7 +26,7 @@ https://github.com/microsoft/vscode-remote-release/issues/1056
 
 #### rust-analyzer
 
-Configurate "Rust-analyzer: Server Path" to /usr/bin/rust-analyzer
+Configurate "Rust-analyzer: Server Path" to `/usr/bin/rust-analyzer` or `/usr/local/bin/rust-analyzer`
 
 #### TabNine
 
