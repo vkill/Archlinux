@@ -20,3 +20,9 @@ yaourt -S ideviceinstaller
 
 ideviceinstaller -i ~/Downloads/xxx.ipa
 ```
+
+### Player
+
+```
+sudo pacman -S vlc
+```
