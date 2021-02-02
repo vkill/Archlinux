@@ -53,7 +53,7 @@ sudo pacman -S nvidia-settings
 # Require archlinuxcn repo
 sudo pacman -S optimus-manager-qt
 
-sudo reboot
+sudo shutdown -r now
 ```
 
 ```
@@ -61,7 +61,7 @@ optimus-manager-qt
 
 # change "startup mode" to "Nvidia"
 
-sudo reboot
+sudo shutdown -r now
 ```
 
 ```
