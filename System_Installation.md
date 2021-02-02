@@ -115,5 +115,5 @@ umount /mnt
 
 sync
 
-reboot
+shutdown -r now
 ```
