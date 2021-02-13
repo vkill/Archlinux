@@ -36,3 +36,8 @@ cargo install cargo-udeps --locked
 # https://github.com/launchbadge/sqlx
 cargo install sqlx-cli --no-default-features --features postgres
 ```
+
+```
+# https://github.com/matthiaskrgr/cargo-cache
+cargo install cargo-cache
+```
