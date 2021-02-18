@@ -41,3 +41,9 @@ cargo install sqlx-cli --no-default-features --features postgres
 # https://github.com/matthiaskrgr/cargo-cache
 cargo install cargo-cache
 ```
+
+```
+# https://github.com/stepancheg/rust-protobuf/tree/master/protobuf-codegen
+cargo install protobuf-codegen
+```
+
