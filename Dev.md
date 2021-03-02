@@ -39,3 +39,7 @@ sudo pacman -S nodejs yarn
 ```
 yaourt -S mongodb-compass
 ```
+
+```
+sudo pacman -S dbeaver
+```
