@@ -47,3 +47,9 @@ cargo install cargo-cache
 cargo install protobuf-codegen
 ```
 
+```
+# https://github.com/qarmin/czkawka
+cargo install czkawka_gui
+```
+
+
