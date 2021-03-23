@@ -1,8 +1,10 @@
 ## Nebula Graph
 
-Ref https://low-orbit.net/arch-linux-how-to-install-deb-package
+Ref https://github.com/vkill/VPS/blob/main/NebulaGraph.md
 
 ### Install debtap
+
+Ref https://low-orbit.net/arch-linux-how-to-install-deb-package
 
 ```
 yaourt -S debtap
