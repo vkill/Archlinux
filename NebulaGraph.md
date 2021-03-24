@@ -2,18 +2,9 @@
 
 Ref https://github.com/vkill/VPS/blob/main/NebulaGraph.md
 
-### Install debtap
-
-Ref https://low-orbit.net/arch-linux-how-to-install-deb-package
-
-```
-yaourt -S debtap
-
-sudo su - root
-proxychains debtap -u
-```
-
 ### Install server
+
+Require [debtap](https://github.com/vkill/Archlinux/blob/master/DebPackage.md#debtap)
 
 ```
 wget https://github.com/vesoft-inc/nebula-graph/releases/download/v2.0.0/nebula-graph-2.0.0.ubuntu2004.amd64.deb
