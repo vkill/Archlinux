@@ -13,7 +13,7 @@ sudo su - root
 proxychains debtap -u
 ```
 
-### 
+### netease-cloud-music
 
 https://music.163.com/#/download ubuntu18.04（64位）
 
