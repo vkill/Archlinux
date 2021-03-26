@@ -90,3 +90,14 @@ sudo pacman -S wqy-zenhei wqy-microhei
 
 sudo pacman -S ttf-dejavu adobe-source-code-pro-fonts
 ```
+
+### USB Personal Hotspot
+
+Ref https://wiki.archlinux.org/index.php/IPhone_tethering
+
+```
+sudo pacman -S dhcpcd
+
+networkctl list
+sudo dhcpcd enp0sxxxxxxxxxx
+```
