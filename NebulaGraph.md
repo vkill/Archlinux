@@ -9,6 +9,8 @@ Require [debtap](https://github.com/vkill/Archlinux/blob/master/DebPackage.md#de
 ```
 wget https://github.com/vesoft-inc/nebula-graph/releases/download/v2.0.0/nebula-graph-2.0.0.ubuntu2004.amd64.deb
 
+sudo debtap -u nebula-graph-2.0.0.ubuntu2004.amd64.deb
+
 debtap nebula-graph-2.0.0.ubuntu2004.amd64.deb
 :: Enter Packager name:
 nebula-graph
