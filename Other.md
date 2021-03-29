@@ -26,3 +26,9 @@ ideviceinstaller -i ~/Downloads/xxx.ipa
 ```
 sudo pacman -S vlc
 ```
+
+### BleachBit
+
+```
+sudo pacman -S bleachbit
+```
