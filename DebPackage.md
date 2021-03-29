@@ -9,8 +9,7 @@ yaourt -S debtap
 ```
 
 ```
-sudo su - root
-proxychains debtap -u
+sudo debtap -u
 ```
 
 ### netease-cloud-music
