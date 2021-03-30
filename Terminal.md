@@ -17,6 +17,8 @@ vim ~/.xrc
 
 export VISUAL="vim"
 export EDITOR="vim"
+
+export LANG=en_US.UTF-8
 ```
 
 ### Oh My Zsh
