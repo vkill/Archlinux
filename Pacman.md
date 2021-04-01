@@ -7,6 +7,14 @@ cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.bak
 echo 'Server = http://mirrors.163.com/archlinux/$repo/os/$arch' > /etc/pacman.d/mirrorlist
 ```
 
+### AUR
+
+```
+# Fix `==> ERROR: Cannot find the fakeroot binary.`
+
+sudo pacman -S base-devel
+```
+
 ### archlinuxcn repo
 
 https://mirrors.163.com/.help/archlinux-cn.html
