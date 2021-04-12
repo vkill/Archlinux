@@ -23,6 +23,11 @@ sudo chmod +x /usr/local/bin/rust-analyzer
 ### Binaries
 
 ```
+# https://github.com/dtolnay/cargo-expand
+cargo install cargo-expand
+```
+
+```
 # https://github.com/frewsxcv/cargo-all-features
 cargo install cargo-all-features
 ```
