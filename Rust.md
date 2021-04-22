@@ -57,4 +57,11 @@ cargo install protobuf-codegen
 cargo install czkawka_gui
 ```
 
+```
+# https://github.com/kellpossible/cargo-i18n
+cargo install cargo-i18n
+cargo install xtr
+```
+
+
 
