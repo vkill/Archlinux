@@ -59,6 +59,7 @@ cargo install czkawka_gui
 
 ```
 # https://github.com/kellpossible/cargo-i18n
+# https://github.com/woboq/tr
 cargo install cargo-i18n
 cargo install xtr
 ```
