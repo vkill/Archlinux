@@ -71,10 +71,29 @@ sudo vim /etc/proxychains.conf
 socks5 127.0.0.1 1081
 ```
 
-### polipo
+### privoxy
 
 ```
-sudo pacman -S polipo
+sudo pacman -S privoxy
+```
+
+```
+sudo vim /etc/privoxy/config
+
+forward-socks5t / 127.0.0.1:1081 .
+```
+
+```
+sudo systemctl start privoxy
+sudo journalctl --no-pager -f -u privoxy
+
+sudo systemctl enable privoxy
+```
+
+### Or polipo
+
+```
+yaourt -S polipo
 ```
 
 ```
