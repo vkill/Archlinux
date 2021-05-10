@@ -93,6 +93,8 @@ sudo systemctl enable privoxy
 ### Or polipo
 
 ```
+gpg --keyserver hkps://keys.openpgp.org/ --recv-keys 2652C881EADB5526
+
 yaourt -S polipo
 ```
 
