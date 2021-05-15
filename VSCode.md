@@ -14,7 +14,7 @@ File > Preferences > Settings editor.formatOnSave to true
 
 ### Extensions
 
-* CodeLLDB
+#### CodeLLDB
 
 #### Remote - SSH
 
@@ -31,3 +31,7 @@ Configurate "Rust-analyzer: Server Path" to `/usr/bin/rust-analyzer` or `/usr/lo
 #### TabNine
 
 #### Markdown All in One
+
+### Tips
+
+[Install extension manually](https://stackoverflow.com/questions/42017617/how-to-install-vs-code-extension-manually)
