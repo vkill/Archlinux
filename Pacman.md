@@ -2,9 +2,12 @@
 
 ### Mirror
 
+https://archlinux.org/mirrorlist/
+
 ```
 cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.bak
 echo 'Server = http://mirrors.163.com/archlinux/$repo/os/$arch' > /etc/pacman.d/mirrorlist
+echo 'Server = https://mirrors.bfsu.edu.cn/archlinux/$repo/os/$arch' >> /etc/pacman.d/mirrorlist
 ```
 
 ### AUR
@@ -19,12 +22,15 @@ sudo pacman -S base-devel
 
 https://mirrors.163.com/.help/archlinux-cn.html
 
+https://mirrors.bfsu.edu.cn/help/archlinuxcn/
+
 ```
 sudo vim /etc/pacman.conf
 
 [archlinuxcn]
 SigLevel = Optional TrustedOnly
 Server = http://mirrors.163.com/archlinux-cn/$arch
+Server = https://mirrors.bfsu.edu.cn/archlinuxcn/$arch
 ```
 
 ```
