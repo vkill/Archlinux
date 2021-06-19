@@ -10,6 +10,8 @@ Preferences -> Profiles -> Command -> Enable "Run command as a login shell"
 
 Preferences -> Keybindings -> Update "switch_to_tab_x"
 
+Preferences -> Profiles -> Scrolling -> Update Scrollback "2000" lines
+
 ### Common
 
 ```
