@@ -75,3 +75,18 @@ sudo pacman -S arandr
 ```
 
 Select 1600x900
+
+### Keyring
+
+```
+sudo pacman -S seahorse
+```
+
+```
+seahorse
+```
+
+Ref https://wiki.archlinux.org/title/GNOME/Keyring#Manage_using_GUI
+
+
+
