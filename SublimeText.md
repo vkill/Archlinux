@@ -3,5 +3,5 @@
 ### Install
 
 ```
-yaourt -S sublime-text-dev
+yaourt -S sublime-text-4
 ```
