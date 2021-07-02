@@ -30,11 +30,14 @@ https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpima
 
 https://chrome.google.com/webstore/detail/awesome-screenshot-screen/nlipoenfbbikpbjkfpfillcgkoblgpmj
 
-* JSON Viewer Awesome 
+* JSON-handle
 
-https://chrome.google.com/webstore/detail/json-viewer-awesome/iemadiahhbebdklepanmkjenfdebfpfe
+https://chrome.google.com/webstore/detail/json-handle/iahnhfdhidomcpggpaimmmahffihkfnj
 
 * Proxy SwitchyOmega
 
 https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif
 
+* Authenticator
+
+https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai
