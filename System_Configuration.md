@@ -13,6 +13,8 @@ sudo systemctl enable iwd
 sudo systemctl start iwd
 
 sudo iwctl --passphrase WIFI_PASSWORD station wlan0 connect WIFI_SSID
+
+sudo cat /var/lib/iwd/WIFI_SSID.psk
 ```
 
 ```
