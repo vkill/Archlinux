@@ -50,7 +50,7 @@ ping archlinux.org
 ### Base packages
 
 ```
-sudo pacman -S net-tools dnsutils htop
+sudo pacman -S net-tools dnsutils htop linux-headers
 ```
 
 ### Time zone
