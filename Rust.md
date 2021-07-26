@@ -11,20 +11,14 @@ rustup default stable
 ```
 
 ```
-sudo pacman -S rust-analyzer
-
-# or
-
-wget https://github.com/rust-analyzer/rust-analyzer/releases/download/2021-05-17/rust-analyzer-linux
-sudo mv rust-analyzer-linux /usr/local/bin/rust-analyzer
-sudo chmod +x /usr/local/bin/rust-analyzer
-
-# or
-
-wget https://github.com/rust-analyzer/rust-analyzer/releases/download/2021-05-24/rust-analyzer-x86_64-unknown-linux-gnu.gz
+wget https://github.com/rust-analyzer/rust-analyzer/releases/download/2021-07-19/rust-analyzer-x86_64-unknown-linux-gnu.gz
 gzip -d rust-analyzer-x86_64-unknown-linux-gnu.gz
 sudo mv rust-analyzer-x86_64-unknown-linux-gnu /usr/local/bin/rust-analyzer
 sudo chmod +x /usr/local/bin/rust-analyzer
+
+# or
+
+sudo pacman -S rust-analyzer
 ```
 
 ### Binaries
@@ -71,5 +65,7 @@ cargo install cargo-i18n
 cargo install xtr
 ```
 
-
-
+```
+# https://github.com/killercup/cargo-edit
+cargo install cargo-edit
+```
