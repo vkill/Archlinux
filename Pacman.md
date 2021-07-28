@@ -68,3 +68,18 @@ yaourt -Sy arch4edu-keyring
 # Removing unused packages
 sudo pacman -Rns $(sudo pacman -Qtdq)
 ```
+
+#### Error 'could not fully load metadata for package'
+
+```
+pacman -Rs xxx
+error: could not open file /var/lib/pacman/local/xxx-1.0.0-1/files: No such file or directory
+warning: could not fully load metadata for package xxx-1.0.0-1
+checking dependencies...
+error: failed to prepare transaction (could not satisfy dependencies)
+```
+
+```
+touch /var/lib/pacman/local/xxx-1.0.0-1/files
+pacman -Rs xxx
+```
