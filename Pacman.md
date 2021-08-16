@@ -64,8 +64,16 @@ yaourt -Sy arch4edu-keyring
 
 ### Key
 
+Ref https://wiki.archlinux.org/title/Pacman/Package_signing
+
 ```
 pacman-key --recv-keys 152AC7B5F7608B26 --keyserver hkps://keyserver.ubuntu.com
+```
+
+```
+sudo vim /etc/pacman.d/gnupg/gpg.conf
+
+keyserver hkp://keyserver.ubuntu.com
 ```
 
 ### Tips
