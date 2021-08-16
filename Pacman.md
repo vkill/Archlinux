@@ -62,6 +62,12 @@ Server = http://mirrors.tuna.tsinghua.edu.cn/arch4edu/$arch
 yaourt -Sy arch4edu-keyring
 ```
 
+### Key
+
+```
+pacman-key --recv-keys 152AC7B5F7608B26 --keyserver hkps://keyserver.ubuntu.com
+```
+
 ### Tips
 
 ```
