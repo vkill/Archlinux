@@ -69,3 +69,8 @@ cargo install xtr
 # https://github.com/killercup/cargo-edit
 cargo install cargo-edit
 ```
+
+```
+# https://github.com/crate-ci/typos
+cargo install typos-cli
+```
