@@ -12,6 +12,12 @@ yaourt -S visual-studio-code-bin
 
 File > Preferences > Settings editor.formatOnSave to true
 
+```
+{
+  "editor.formatOnSave": true
+}
+```
+
 ### Extensions
 
 #### CodeLLDB
@@ -28,7 +34,20 @@ https://github.com/microsoft/vscode-remote-release/issues/1056
 
 Configurate "Rust-analyzer: Server Path" to `/usr/bin/rust-analyzer` or `/usr/local/bin/rust-analyzer`
 
+```
+{
+  "rust-analyzer.server.path": "/usr/local/bin/rust-analyzer",
+  "rust-analyzer.procMacro.enable": true
+}
+```
+
 #### TabNine
+
+```
+{
+  "tabnine.experimentalAutoImports": true
+}
+```
 
 #### Markdown All in One
 
