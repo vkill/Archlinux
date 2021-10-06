@@ -21,6 +21,26 @@ sudo chmod +x /usr/local/bin/rust-analyzer
 sudo pacman -S rust-analyzer
 ```
 
+### Cross compiling
+
+Ref https://wiki.archlinux.org/title/rust#Cross_compiling
+
+```
+sudo pacman -S mingw-w64-gcc
+
+
+rustup target add x86_64-pc-windows-gnu
+
+
+vim ~/.cargo/config
+[target.x86_64-pc-windows-gnu]
+linker = "/usr/bin/x86_64-w64-mingw32-gcc"
+ar = "/usr/bin/x86_64-w64-mingw32-ar"
+
+
+cargo build --release --target "x86_64-pc-windows-gnu"
+```
+
 ### Binaries
 
 ```
