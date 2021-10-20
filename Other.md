@@ -32,3 +32,9 @@ sudo pacman -S vlc
 ```
 sudo pacman -S bleachbit
 ```
+
+### LabelImg
+
+```
+yaourt -S labelimg-git
+```
