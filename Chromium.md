@@ -38,6 +38,16 @@ https://chrome.google.com/webstore/detail/json-handle/iahnhfdhidomcpggpaimmmahff
 
 https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif
 
+Profile Bypass List
+
+```
+<local>
+10.0.0.0/8
+172.16.0.0/12
+192.168.0.0/16
+*.lvh.me
+```
+
 * Authenticator
 
 https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai
