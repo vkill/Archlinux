@@ -33,3 +33,13 @@ eval $(keychain --eval --quiet ~/.ssh/id_rsa ~/.ssh/id_rsa_foo)
 ```
 ssh-add -l
 ```
+
+### Tips
+
+#### sign_and_send_pubkey: no mutual signature supported
+
+```
+vim ~/.ssh/config
+Host *
+  PubkeyAcceptedKeyTypes +ssh-rsa
+```
