@@ -38,7 +38,8 @@ Configurate "Rust-analyzer: Server Path" to `/usr/bin/rust-analyzer` or `/usr/lo
 {
   "rust-analyzer.server.path": "/usr/local/bin/rust-analyzer",
   "rust-analyzer.procMacro.enable": true,
-  "rust-analyzer.cargo.loadOutDirsFromCheck": true
+  "rust-analyzer.cargo.loadOutDirsFromCheck": true,
+  "rust-analyzer.experimental.procAttrMacros": false
 }
 ```
 
