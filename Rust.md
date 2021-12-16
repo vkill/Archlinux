@@ -94,3 +94,10 @@ cargo install cargo-edit
 # https://github.com/crate-ci/typos
 cargo install typos-cli
 ```
+
+```
+# https://github.com/davidcole1340/ext-php-rs
+sudo pacman -S php
+cargo install cargo-php
+```
+
