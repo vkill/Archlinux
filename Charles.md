@@ -21,3 +21,8 @@ Open Charles
 3. Open Settings, "General"->"Profile"->"Charles Proxy CA(xx xxx 2021)", install
 
 4. Open Settings, "General"->"About"->"Certificate Trust Settings"->"Charles Proxy CA(xx xxx 2021)", Enable
+
+### iPhone iOS 15
+
+3. Open Settings, "General"->"VPN & Device Management"->"Charles Proxy CA(xx xxx 2021)", install
+4. 
