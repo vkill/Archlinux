@@ -30,7 +30,7 @@ sudo pacman -S protobuf
 ```
 
 ```
-sudo pacman -S ruby
+sudo pacman -S ruby ruby-rdoc
 ```
 
 ```
