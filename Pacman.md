@@ -41,7 +41,8 @@ sudo pacman -Sy archlinuxcn-keyring
 # Require archlinuxcn repo
 sudo pacman -S yaourt
 
-echo 'AURURL="https://aur.tuna.tsinghua.edu.cn"' | sudo tee -a /etc/yaourtrc
+# Ref https://mirrors.tuna.tsinghua.edu.cn/news/remove-aur/
+# echo 'AURURL="https://aur.tuna.tsinghua.edu.cn"' | sudo tee -a /etc/yaourtrc
 ```
 
 ```
