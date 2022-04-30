@@ -56,3 +56,6 @@ Configurate "Rust-analyzer: Server Path" to `/usr/bin/rust-analyzer` or `/usr/lo
 ### Tips
 
 [Install extension manually](https://stackoverflow.com/questions/42017617/how-to-install-vs-code-extension-manually)
+
+[Troubleshooting keychain issues](https://code.visualstudio.com/docs/editor/settings-sync#_troubleshooting-keychain-issues)
+
