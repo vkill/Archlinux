@@ -53,6 +53,10 @@ Configurate "Rust-analyzer: Server Path" to `/usr/bin/rust-analyzer` or `/usr/lo
 
 #### Markdown All in One
 
+#### Playwright Test
+
+https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright
+
 ### Tips
 
 [Install extension manually](https://stackoverflow.com/questions/42017617/how-to-install-vs-code-extension-manually)
