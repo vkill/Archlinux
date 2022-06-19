@@ -44,14 +44,19 @@ sudo pacman -S pcmanfm
 ### Nvidia
 
 ```
+sudo vim /etc/sddm.conf
+#DisplayCommand=/usr/share/sddm/scripts/Xsetup
+#DisplayStopCommand=/usr/share/sddm/scripts/Xstop
+```
+
+```
 sudo pacman -S nvidia bbswitch
 
 sudo pacman -S opencl-nvidia
 
 sudo pacman -S nvidia-settings
 
-# Require archlinuxcn repo
-sudo pacman -S optimus-manager-qt
+yaourt -S optimus-manager-qt
 
 sudo shutdown -r now
 ```
