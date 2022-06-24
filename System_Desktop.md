@@ -43,6 +43,8 @@ sudo pacman -S pcmanfm
 
 ### Nvidia
 
+Ref https://wiki.archlinux.org/title/NVIDIA
+
 ```
 sudo vim /etc/sddm.conf
 #DisplayCommand=/usr/share/sddm/scripts/Xsetup
