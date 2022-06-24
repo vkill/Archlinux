@@ -9,7 +9,7 @@ https://wiki.archlinux.org/index.php/KDE
 ### Xorg
 
 ```
-sudo lspci | grep -e VGA -e 3D
+sudo lspci -k | grep -A 2 -E "(VGA|3D)"
 ```
 
 ```
