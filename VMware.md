@@ -13,5 +13,5 @@ sudo systemctl enable vmware-usbarbitrator.service
 ```
 git clone https://github.com/paolo-projects/unlocker.git
 cd unlocker
-./lnx-install.sh
+sudo ./lnx-install.sh
 ```
