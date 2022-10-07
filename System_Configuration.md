@@ -103,3 +103,10 @@ sudo pacman -S dhcpcd
 networkctl list
 sudo dhcpcd enp0sxxxxxxxxxx
 ```
+
+### Clear trash
+
+```
+sudo rm -rf ~/.local/share/Trash/*
+```
+
