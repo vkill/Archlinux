@@ -35,6 +35,8 @@ sudo pacman -S ruby ruby-rdoc
 
 ```
 sudo pacman -S nodejs yarn npm typescript ts-node
+
+yarn cache clean
 ```
 
 ```
