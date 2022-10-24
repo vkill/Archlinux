@@ -1,11 +1,11 @@
 ## Dev
 
 ```
-sudo pacman -S wget curl aria2 git tig
+sudo pacman -S wget curl aria2
 ```
 
 ```
-sudo pacman -S gedit
+sudo pacman -S git tig
 ```
 
 ```
@@ -45,4 +45,11 @@ yaourt -S mongodb-compass
 
 ```
 sudo pacman -S dbeaver
+```
+
+### Git fetch all repos in a folder
+
+```
+find . -type d -mindepth 1 -maxdepth 1 | xargs -I{} git -C {} fetch;
+find . -type d -mindepth 1 -maxdepth 1 | xargs -I{} git -C {} rebase;
 ```
