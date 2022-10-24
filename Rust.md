@@ -101,3 +101,8 @@ sudo pacman -S php
 cargo install cargo-php
 ```
 
+### Tips
+
+```
+find . -type d -mindepth 1 -maxdepth 1 | xargs -I{} cargo clean --manifest-path={}/Cargo.toml
+```
