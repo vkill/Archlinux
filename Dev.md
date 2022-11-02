@@ -50,6 +50,6 @@ sudo pacman -S dbeaver
 ### Git fetch all repos in a folder
 
 ```
-find . -type d -mindepth 1 -maxdepth 1 | xargs -I{} git --git-dir={}/.git --work-tree=$PWD/{} fetch
+find . -type d -mindepth 1 -maxdepth 1 | xargs -I{} -P4 git --git-dir={}/.git --work-tree=$PWD/{} fetch
 find . -type d -mindepth 1 -maxdepth 1 | xargs -I{} git --git-dir={}/.git --work-tree=$PWD/{} rebase
 ```
