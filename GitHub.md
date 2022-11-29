@@ -39,4 +39,8 @@ vim ~/.gitconfig.github_office
 
 ```
 git clone git@github.com-office:organization/repository.git
+
+cd repository
+
+git config user.email
 ```
