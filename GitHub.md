@@ -13,7 +13,7 @@ Host github.com-personal
     HostName github.com
     IdentityFile ~/.ssh/id_rsa.github_personal
 
-Host * !github.com-company !github.com-personal
+Host * !github.com-office
     ...
 ```
 
