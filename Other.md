@@ -4,6 +4,7 @@
 
 ```
 sudo pacman -S remmina libvncserver
+yaourt -S remmina-plugin-rdesktop
 ```
 
 ### UI and UX
