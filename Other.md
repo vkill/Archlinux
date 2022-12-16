@@ -3,6 +3,8 @@
 ### Remote desktop client
 
 ```
+sudo pacman -S rdesktop
+
 sudo pacman -S remmina libvncserver
 yaourt -S remmina-plugin-rdesktop
 ```
