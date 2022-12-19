@@ -41,3 +41,22 @@ sudo pacman -S bleachbit
 ```
 yaourt -S labelimg-git
 ```
+
+### DingTalk
+
+```
+yaourt -S dingtalk-bin
+```
+
+### Tencent Meeting
+
+```
+yaourt -S wemeet-bin
+```
+
+### QQ
+
+```
+yaourt -S linuxqq-new
+```
+
