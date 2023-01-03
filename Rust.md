@@ -24,12 +24,35 @@ sudo pacman -S rust-analyzer
 ### Cross compiling
 
 ```
+rustup target add x86_64-unknown-linux-gnu
+
+
+# ldd
+#   linux-vdso.so.1 (0x00007ffcb0790000)
+#   libssl.so.3 => /usr/lib/libssl.so.3 (0x00007f4b6eb60000)
+#   libcrypto.so.3 => /usr/lib/libcrypto.so.3 (0x00007f4b6e600000)
+#   libz.so.1 => /usr/lib/libz.so.1 (0x00007f4b6f1f8000)
+#   libgcc_s.so.1 => /usr/lib/libgcc_s.so.1 (0x00007f4b6f1d8000)
+#   libm.so.6 => /usr/lib/libm.so.6 (0x00007f4b6ea78000)
+#   libc.so.6 => /usr/lib/libc.so.6 (0x00007f4b6e419000)
+#   /lib64/ld-linux-x86-64.so.2 => /usr/lib64/ld-linux-x86-64.so.2 (0x00007f4b6f236000)
+
+cargo build --release --target x86_64-unknown-linux-gnu
+```
+
+```
 sudo pacman -S musl openssl-1.1
 
 
 rustup target add x86_64-unknown-linux-musl
 
 
+# ldd
+#   linux-vdso.so.1 (0x00007fffd35ab000)
+#   libssl.so.1.1 => /usr/lib/libssl.so.1.1 (0x00007ff938149000)
+#   libcrypto.so.1.1 => /usr/lib/libcrypto.so.1.1 (0x00007ff937e00000)
+#   libc.so.6 => /usr/lib/libc.so.6 (0x00007ff937c19000)
+#   /usr/lib64/ld-linux-x86-64.so.2 (0x00007ff9387f5000)
 OPENSSL_INCLUDE_DIR=/usr/include/openssl-1.1 OPENSSL_LIB_DIR=/usr/lib/openssl-1.1 cargo build --release --target x86_64-unknown-linux-musl
 ```
 
