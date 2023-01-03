@@ -23,6 +23,16 @@ sudo pacman -S rust-analyzer
 
 ### Cross compiling
 
+```
+sudo pacman -S musl openssl-1.1
+
+
+rustup target add x86_64-unknown-linux-musl
+
+
+OPENSSL_INCLUDE_DIR=/usr/include/openssl-1.1 OPENSSL_LIB_DIR=/usr/lib/openssl-1.1 cargo build --release --target x86_64-unknown-linux-musl
+```
+
 Ref https://wiki.archlinux.org/title/rust#Cross_compiling
 
 ```
