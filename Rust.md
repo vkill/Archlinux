@@ -93,7 +93,7 @@ cargo install cargo-udeps --locked
 
 ```
 # https://github.com/launchbadge/sqlx
-cargo install sqlx-cli --no-default-features --features postgres,native-tls
+cargo install sqlx-cli --no-default-features --features postgres,mysql,native-tls
 ```
 
 ```
