@@ -83,6 +83,11 @@ keyserver hkp://keyserver.ubuntu.com
 sudo pacman -Rns $(sudo pacman -Qtdq)
 ```
 
+```
+# List install packages by size 
+expac "%n %m" -l'\n' -Q $(pacman -Qq) | sort -rhk 2 | less
+```
+
 #### Error 'could not fully load metadata for package'
 
 ```
