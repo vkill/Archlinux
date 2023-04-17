@@ -117,3 +117,8 @@ sync
 
 shutdown -r now
 ```
+
+### Tips
+
+If `ifconfig -a` can't find wlan0, please check if linux-firmware is uninstalled.
+
