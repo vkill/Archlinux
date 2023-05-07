@@ -46,3 +46,9 @@ vim ~/.ssh/config
 Host *
   PubkeyAcceptedKeyTypes +ssh-rsa
 ```
+
+#### Gen
+
+```
+ssh-keygen -t rsa -C "username@xxx.com" -f ~/.ssh/id_rsa.xxx
+```
