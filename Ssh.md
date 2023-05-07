@@ -19,7 +19,10 @@ Host *
   ServerAliveInterval 60
   ServerAliveCountMax 5
 
-  ControlPersist 4h
+  HostKeyAlgorithms +ssh-dss
+  PubkeyAcceptedAlgorithms +ssh-dss
+
+  ControlPersist 1h
   ControlMaster auto
   ControlPath ~/.ssh/sockets/%r@%h-%p
 ```
