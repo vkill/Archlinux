@@ -35,6 +35,8 @@ eval $(keychain --eval --quiet ~/.ssh/id_rsa ~/.ssh/id_rsa.xxx)
 
 ```
 ssh-add -l
+ssh-add -d ~/.ssh/id_rsa.xxx.pub
+ssh-add ~/.ssh/id_rsa.xxx
 ```
 
 ### Tips
