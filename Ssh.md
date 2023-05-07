@@ -30,7 +30,7 @@ Host *
 ```
 vim ~/.xprofile
 
-eval $(keychain --eval --quiet ~/.ssh/id_rsa ~/.ssh/id_rsa_foo)
+eval $(keychain --eval --quiet ~/.ssh/id_rsa ~/.ssh/id_rsa.xxx)
 ```
 
 ```
