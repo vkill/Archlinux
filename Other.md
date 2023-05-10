@@ -48,6 +48,12 @@ yaourt -S labelimg-git
 yaourt -S dingtalk-bin
 ```
 
+```
+find ~/.config/DingTalk -type f \( -name '*.log' -o -name '*.log.*' \) -ctime +1 | xargs -I{} rm -rf {}
+
+find ~/.config/DingTalk/userdata -type f -ctime +90 | xargs -I{} rm -rf {}
+```
+
 ### Tencent Meeting
 
 ```
