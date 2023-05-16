@@ -21,6 +21,12 @@ sudo chmod +x /usr/local/bin/rust-analyzer
 sudo pacman -S rust-analyzer
 ```
 
+```
+# Tips
+sudo mv ~/.rustup /media/data
+ln -sf /media/data/.rustup .
+```
+
 ### Cross compiling
 
 ```
