@@ -73,6 +73,8 @@ sudo shutdown -r now
 
 ```
 glxinfo | grep -i NVIDIA
+
+__GL_SYNC_TO_VBLANK=0 glxgears
 ```
 
 ### ARandR
