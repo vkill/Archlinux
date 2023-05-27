@@ -3,7 +3,7 @@
 ### Install
 
 ```
-sudo pacman -S docker docker-compose
+sudo pacman -S docker docker-compose docker-buildx
 ```
 
 ```
