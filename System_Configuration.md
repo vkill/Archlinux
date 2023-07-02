@@ -14,7 +14,7 @@ sudo systemctl start iwd
 
 sudo iwctl --passphrase WIFI_PASSWORD station wlan0 connect WIFI_SSID
 
-sudo cat /var/lib/iwd/WIFI_SSID.psk
+sudo iwctl station wlan0 show
 ```
 
 ```
@@ -104,9 +104,11 @@ networkctl list
 sudo dhcpcd enp0sxxxxxxxxxx
 ```
 
-### Clear trash
+### Tips
+
+Clear trash
 
 ```
-sudo rm -rf ~/.local/share/Trash/*
+rm -rf ~/.local/share/Trash/*
 ```
 
