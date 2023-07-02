@@ -79,6 +79,8 @@ __GL_SYNC_TO_VBLANK=0 glxgears
 
 ### Intel graphics
 
+Ref https://arch.icekylin.online/guide/rookie/graphic-driver.html
+
 ```
 sudo pacman -Rs xf86-video-intel
 
