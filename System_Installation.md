@@ -24,7 +24,7 @@ sync && sync
 
 ### Boot from live USB
 
-Disable UEFI Secure Boot
+Disable "Secure Boot"
 
 ### Pre-Installation
 
