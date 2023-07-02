@@ -19,7 +19,7 @@ rm -rf sha256sums.txt
 ```
 sudo dd bs=4M if=archlinux-2023.07.01-x86_64.iso of=/dev/sdx status=progress oflag=sync
 
-sync && sync
+sync
 ```
 
 ### Boot from live USB
@@ -73,7 +73,7 @@ mount /dev/nvme0n1p3 /mnt/media/data
 ```
 
 ```
-pacstrap /mnt base base-devel linux linux-firmware iwd vim
+pacstrap /mnt base base-devel linux linux-firmware dhcpcd iwd vim
 ```
 
 ```
