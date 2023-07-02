@@ -31,8 +31,10 @@ Disable "Secure Boot"
 ```
 fdisk /dev/nvme0n1
 
-nvme0n1p1 100M EFI System
-nvme0n1p2 60G  Linux filesystem
+Disklabel type: gpt
+
+nvme0n1p1 260M EFI System
+nvme0n1p2 100G  Linux filesystem
 nvme0n1p3 xxG  Linux filesystem
 ```
 
@@ -43,19 +45,14 @@ mkfs.ext4 /dev/nvme0n1p3
 ```
 
 ```
-# LAN
-# Insert network cable into LAN port on the network router
-
 ip link
 
+# LAN
+# Insert network cable into LAN port on the network router
 dhcpcd enp0s31f6
-
-ping archlinux.org
-
 
 # WiFi
 # https://wiki.archlinux.org/index.php/Iwd
-
 iwctl --passphrase WIFI_PASSWORD station wlan0 connect WIFI_SSID
 
 ping archlinux.org
@@ -63,7 +60,7 @@ ping archlinux.org
 
 ```
 cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.bak
-echo 'Server = http://mirrors.163.com/archlinux/$repo/os/$arch' > /etc/pacman.d/mirrorlist
+cat /etc/pacman.d/mirrorlist.bak | grep 163 > /etc/pacman.d/mirrorlist
 ```
 
 ### Installation
