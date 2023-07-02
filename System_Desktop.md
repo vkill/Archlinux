@@ -77,6 +77,14 @@ glxinfo | grep -i NVIDIA
 __GL_SYNC_TO_VBLANK=0 glxgears
 ```
 
+### Intel graphics
+
+```
+sudo pacman -Rs xf86-video-intel
+
+sudo pacman -S mesa vulkan-intel
+```
+
 ### ARandR
 
 ```
