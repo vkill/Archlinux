@@ -3,7 +3,7 @@
 ### shadowsocks
 
 ```
-sudo pacman -S shadowsocks-libev
+yay -S shadowsocks-libev
 
 sudo pacman -S shadowsocks-v2ray-plugin
 ```
@@ -62,7 +62,7 @@ sudo pacman -S v2ray
 ### proxychains
 
 ```
-sudo psudo pacman -S proxychains-ng
+sudo pacman -S proxychains-ng
 ```
 
 ```
@@ -95,7 +95,7 @@ sudo systemctl enable privoxy
 ```
 gpg --keyserver hkps://keys.openpgp.org/ --recv-keys 2652C881EADB5526
 
-yaourt -S polipo
+yay -S polipo
 ```
 
 ```
