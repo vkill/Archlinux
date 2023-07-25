@@ -12,13 +12,21 @@ Open chrome://settings/
 
 * Search engines
 
-* Passwords
+* Password Manager
 
-Diable "Offer to save passwords"
+Disable "Offer to save passwords"
 
-* Languages
+* Payment methods
 
-Diable "Offer to translate pages that aren't in a language you read"
+Disable "Save and fill payment methods"
+
+* Addresses and more
+
+Disable "Save and fill addresses"
+
+* Google Translate
+
+Disable "Use Google Translate"
 
 ### Extensions
 
@@ -41,7 +49,9 @@ https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgk
 Profile Bypass List
 
 ```
-<local>
+127.0.0.1
+::1
+localhost
 10.0.0.0/8
 172.16.0.0/12
 192.168.0.0/16
