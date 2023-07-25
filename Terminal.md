@@ -42,6 +42,10 @@ vim ~/.zshrc
 ZSH_THEME="gnzh"
 
 [ -f ~/.xrc ] && source ~/.xrc
+
+vim ~/.zshenv
+
+[ -f ~/.xprofile ] && source ~/.xprofile
 ```
 
 ```
