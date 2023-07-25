@@ -93,7 +93,11 @@ sudo pacman -S mesa vulkan-intel
 sudo pacman -S arandr
 ```
 
-Select 1600x900
+### System Settings -> Display Configuration
+
+Resolution: 1920x1080
+
+Global scale: 125%
 
 ### Keyring
 
