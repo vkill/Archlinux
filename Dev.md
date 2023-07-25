@@ -40,7 +40,7 @@ yarn cache clean
 ```
 
 ```
-yaourt -S mongodb-compass
+yay -S mongodb-compass
 ```
 
 ```
