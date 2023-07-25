@@ -14,7 +14,10 @@ sudo pacman -S ansible
 
 ```
 sudo pacman -S postgresql-libs
-sudo pacman -S postgresql
+```
+
+```
+sudo pacman -S mariadb-clients
 ```
 
 ```
