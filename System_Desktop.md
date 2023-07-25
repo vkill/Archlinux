@@ -95,9 +95,9 @@ sudo pacman -S arandr
 
 ### System Settings -> Display Configuration
 
-Resolution: 1920x1080
+Resolution: 1600x900 / 1920x1080
 
-Global scale: 125%
+Global scale: 112.5% / 125%
 
 ### Audio
 
