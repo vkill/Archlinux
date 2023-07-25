@@ -104,6 +104,10 @@ networkctl list
 sudo dhcpcd enp0sxxxxxxxxxx
 ```
 
+### System Settings -> Applications -> Default Applications
+
+Web browser: Chromium
+
 ### Tips
 
 Clear trash
