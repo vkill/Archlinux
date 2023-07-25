@@ -58,7 +58,7 @@ sudo pacman -S opencl-nvidia
 
 sudo pacman -S nvidia-settings
 
-yaourt -S optimus-manager-qt
+yay -S optimus-manager-qt
 
 sudo shutdown -r now
 ```
