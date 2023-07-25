@@ -6,20 +6,20 @@
 sudo pacman -S rdesktop
 
 sudo pacman -S remmina libvncserver
-yaourt -S remmina-plugin-rdesktop
+yay -S remmina-plugin-rdesktop
 ```
 
 ### UI and UX
 
 ```
-yaourt -S akira
+yay -S akira
 ```
 
 ### ipa
 
 ```
 sudo pacman -S libimobiledevice
-yaourt -S ideviceinstaller
+yay -S ideviceinstaller
 
 ideviceinstaller -i ~/Downloads/xxx.ipa
 ```
@@ -39,13 +39,13 @@ sudo pacman -S bleachbit
 ### LabelImg
 
 ```
-yaourt -S labelimg-git
+yay -S labelimg-git
 ```
 
 ### DingTalk
 
 ```
-yaourt -S dingtalk-bin
+yay -S dingtalk-bin
 ```
 
 ```
@@ -57,12 +57,12 @@ find ~/.config/DingTalk/userdata -type f -ctime +90 | xargs -I{} rm -rf {}
 ### Tencent Meeting
 
 ```
-yaourt -S wemeet-bin
+yay -S wemeet-bin
 ```
 
 ### QQ
 
 ```
-yaourt -S linuxqq-new
+yay -S linuxqq
 ```
 
