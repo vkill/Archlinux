@@ -46,7 +46,7 @@ https://chrome.google.com/webstore/detail/json-handle/iahnhfdhidomcpggpaimmmahff
 
 https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif
 
-Profile Bypass List
+Profile -> Bypass List
 
 ```
 127.0.0.1
@@ -57,6 +57,8 @@ localhost
 192.168.0.0/16
 *.lvh.me
 ```
+
+Profile -> Rule List URL "https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt"
 
 * Authenticator
 
