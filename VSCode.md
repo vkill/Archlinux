@@ -5,7 +5,7 @@
 ```
 # https://aur.archlinux.org/packages/visual-studio-code-bin/
 
-yaourt -S visual-studio-code-bin
+sudo pacman -S visual-studio-code-bin
 ```
 
 ### Configurate
