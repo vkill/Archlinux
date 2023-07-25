@@ -3,7 +3,7 @@
 ### Install
 
 ```
-yaourt -S burpsuite
+yay -S burpsuite
 ```
 
 ### iPhone iOS 14
