@@ -3,7 +3,7 @@
 ### Install
 
 ```
-yaourt -S charles
+yay -S charles
 ```
 
 ### Configurate
@@ -25,4 +25,4 @@ Open Charles
 ### iPhone iOS 15
 
 3. Open Settings, "General"->"VPN & Device Management"->"Charles Proxy CA(xx xxx 2021)", install
-4. 
+
