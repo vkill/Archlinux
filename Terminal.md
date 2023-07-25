@@ -58,4 +58,8 @@ sudo usermod -s /bin/zsh YOURUSERNAME
 vim ~/.bashrc
 
 [ -f ~/.xrc ] && source ~/.xrc
+
+vim ~/.bash_profile
+
+[ -f ~/.xprofile ] && source ~/.xprofile
 ```
