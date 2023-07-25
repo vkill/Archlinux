@@ -7,7 +7,7 @@ sudo pacman -S java-runtime-common jdk-openjdk
 ```
 
 ```
-sudo pacman -S jdk11-openjdk
+sudo pacman -S jdk17-openjdk
 ```
 
 ```
