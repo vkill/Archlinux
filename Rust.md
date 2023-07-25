@@ -6,12 +6,13 @@
 sudo pacman -S rustup
 
 rustup install stable
+rustup install nightly
 
 rustup default stable
 ```
 
 ```
-wget https://github.com/rust-analyzer/rust-analyzer/releases/download/2021-07-19/rust-analyzer-x86_64-unknown-linux-gnu.gz
+wget https://github.com/rust-analyzer/rust-analyzer/releases/download/2023-07-24/rust-analyzer-x86_64-unknown-linux-gnu.gz
 gzip -d rust-analyzer-x86_64-unknown-linux-gnu.gz
 sudo mv rust-analyzer-x86_64-unknown-linux-gnu /usr/local/bin/rust-analyzer
 sudo chmod +x /usr/local/bin/rust-analyzer
