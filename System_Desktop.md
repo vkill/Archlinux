@@ -99,6 +99,20 @@ Resolution: 1920x1080
 
 Global scale: 125%
 
+### Audio
+
+```
+sudo pacman -S alsa-utils pulseaudio
+
+aplay -l
+```
+
+```
+# lspci -v
+# Kernel driver in use: sof-audio-pci-intel-tgl
+sudo pacman -S sof-firmware
+```
+
 ### Keyring
 
 ```
