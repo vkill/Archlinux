@@ -3,7 +3,7 @@
 ### Install
 
 ```
-yaourt -S thunderbird-beta-bin
+yay -S thunderbird-beta-bin
 ```
 
 ### Amazon WorkMail
