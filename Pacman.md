@@ -5,16 +5,15 @@
 https://archlinux.org/mirrorlist/
 
 ```
-cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.bak
-echo 'Server = https://mirrors.bfsu.edu.cn/archlinux/$repo/os/$arch' >> /etc/pacman.d/mirrorlist
-echo 'Server = http://mirrors.163.com/archlinux/$repo/os/$arch' > /etc/pacman.d/mirrorlist
+sudo cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.bak
+echo 'Server = https://mirrors.bfsu.edu.cn/archlinux/$repo/os/$arch' | sudo tee /etc/pacman.d/mirrorlist
+echo 'Server = http://mirrors.163.com/archlinux/$repo/os/$arch' | sudo tee -a /etc/pacman.d/mirrorlist
 ```
 
 ### AUR
 
 ```
 # Fix `==> ERROR: Cannot find the fakeroot binary.`
-
 sudo pacman -S base-devel
 ```
 
@@ -39,16 +38,16 @@ sudo pacman -Sy archlinuxcn-keyring
 
 ```
 # Require archlinuxcn repo
-sudo pacman -S yaourt
-
-# configuration file is /etc/yaourtrc
+sudo pacman -S yay
 ```
 
 ```
-yaourt -S downgrade
+yay -S downgrade
 ```
 
 ### arch4edu repo
+
+https://mirrors.tuna.tsinghua.edu.cn/help/arch4edu/
 
 ```
 sudo vim /etc/pacman.conf
@@ -59,7 +58,7 @@ Server = http://mirrors.tuna.tsinghua.edu.cn/arch4edu/$arch
 ```
 
 ```
-yaourt -Sy arch4edu-keyring
+yay -Sy arch4edu-keyring
 ```
 
 ### Key
@@ -84,7 +83,8 @@ sudo pacman -Rns $(sudo pacman -Qtdq)
 ```
 
 ```
-# List install packages by size 
+# List install packages by size
+sudo pacman -S expac 
 expac "%n %m" -l'\n' -Q $(pacman -Qq) | sort -rhk 2 | less
 ```
 
