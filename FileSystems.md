@@ -1,7 +1,7 @@
 ## File Systems
 
 ```
-yaourt -S hfsprogs
+yay -S hfsprogs
 
 # example
 sudo modprobe hfsplus
@@ -11,5 +11,5 @@ sudo mount -o loop Install.macOS.Catalina.10.15.6.00.19G73.img /mnt/img
 ```
 
 ```
-yaourt -S linux-apfs-dkms-git
+yay -S linux-apfs-dkms-git
 ```
