@@ -110,6 +110,14 @@ sudo dhcpcd enp0sxxxxxxxxxx
 
 Web browser: Chromium
 
+### CPU
+
+```
+sudo pacman -S cpupower
+
+sudo cpupower frequency-info
+```
+
 ### Tips
 
 Clear trash
