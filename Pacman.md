@@ -13,6 +13,10 @@ echo 'Server = http://mirrors.163.com/archlinux/$repo/os/$arch' | sudo tee -a /e
 ### AUR
 
 ```
+sudo pacman -S cmake
+```
+
+```
 # Fix `==> ERROR: Cannot find the fakeroot binary.`
 sudo pacman -S base-devel
 ```
