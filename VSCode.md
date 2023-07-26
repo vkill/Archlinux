@@ -52,6 +52,10 @@ Configurate "Rust-analyzer: Server Path" to `/usr/bin/rust-analyzer` or `/usr/lo
 
 #### Markdown All in One
 
+#### Even Better TOML
+
+https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml
+
 #### Playwright Test
 
 https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright
