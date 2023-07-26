@@ -66,3 +66,8 @@ yay -S wemeet-bin
 yay -S linuxqq
 ```
 
+### Telegram
+
+```
+sudo pacman -S telegram-desktop
+```
