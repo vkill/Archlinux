@@ -119,3 +119,16 @@ shutdown -r now
 
 If `ifconfig -a` can't find wlan0, please check if linux-firmware is uninstalled.
 
+### Fix EFI
+
+```
+mount /dev/nvme0n1p2 /mnt
+arch-chroot /mnt
+
+mount /dev/nvme0n1p1 /boot/efi
+grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB
+umount /boot/efi
+
+exit
+umount /mnt
+```
