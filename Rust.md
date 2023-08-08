@@ -24,6 +24,9 @@ sudo pacman -S rust-analyzer
 
 ```
 # Tips
+vim ~/.xrc
+export PATH="$PATH:$HOME/.cargo/bin"
+
 sudo mv ~/.rustup /media/data
 ln -sf /media/data/.rustup ~/.rustup
 
