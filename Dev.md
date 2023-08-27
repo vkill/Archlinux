@@ -50,6 +50,10 @@ yay -S mongodb-compass
 sudo pacman -S dbeaver
 ```
 
+```
+sudo pacman -S rpm
+```
+
 ### Git fetch all repos in a folder
 
 ```
