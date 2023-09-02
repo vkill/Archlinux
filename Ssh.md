@@ -21,9 +21,9 @@ Host *
   ServerAliveCountMax 5
   TCPKeepAlive yes
 
-  # HostKeyAlgorithms +ssh-dss
-  # PubkeyAcceptedAlgorithms +ssh-dss
-  PubkeyAcceptedKeyTypes +ssh-rsa
+  HostKeyAlgorithms +ssh-dss
+  PubkeyAcceptedAlgorithms +ssh-dss
+  # PubkeyAcceptedKeyTypes +ssh-rsa
 
   ControlPersist 1h
   ControlMaster auto
