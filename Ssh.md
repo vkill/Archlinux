@@ -16,11 +16,14 @@ chmod 700 ~/.ssh/sockets
 vim ~/.ssh/config
 Host *
   Compression yes
+
   ServerAliveInterval 60
   ServerAliveCountMax 5
+  TCPKeepAlive yes
 
-  HostKeyAlgorithms +ssh-dss
-  PubkeyAcceptedAlgorithms +ssh-dss
+  # HostKeyAlgorithms +ssh-dss
+  # PubkeyAcceptedAlgorithms +ssh-dss
+  PubkeyAcceptedKeyTypes +ssh-rsa
 
   ControlPersist 1h
   ControlMaster auto
