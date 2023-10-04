@@ -68,6 +68,16 @@ sudo pacman -S proxychains-ng
 ```
 sudo vim /etc/proxychains.conf
 
+## RFC6890 Loopback address range
+localnet 127.0.0.0/255.0.0.0
+localnet ::1/128
+
+## RFC1918 Private Address Ranges
+localnet 10.0.0.0/255.0.0.0
+localnet 172.16.0.0/255.240.0.0
+localnet 192.168.0.0/255.255.0.0
+
+[ProxyList]
 socks5 127.0.0.1 1081
 ```
 
