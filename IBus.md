@@ -3,7 +3,7 @@
 ### Install
 
 ```
-sudo pacman -S ibus ibus-libpinyin
+sudo pacman -S ibus ibus-sunpinyin ibus-libpinyin
 ```
 
 ```
