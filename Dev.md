@@ -59,7 +59,7 @@ sudo pacman -S ecapture
 sudo pacman -S gnutls
 sudo pacman -S nspr
 
-sudo ecapture tls --libssl=/usr/lib/libssl.so --gnutls=/usr/lib/libgnutls.so --nspr=/usr/lib/libnspr4.so
+sudo ecapture tls --libssl=/usr/lib/libssl.so --gnutls=/usr/lib/libgnutls.so --nspr=/usr/lib/libnspr4.so -d
 ```
 
 ### Git fetch all repos in a folder
