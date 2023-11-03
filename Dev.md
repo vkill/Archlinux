@@ -54,6 +54,14 @@ sudo pacman -S dbeaver
 sudo pacman -S rpm
 ```
 
+```
+sudo pacman -S ecapture
+sudo pacman -S gnutls
+sudo pacman -S nspr
+
+sudo ecapture tls --libssl=/usr/lib/libssl.so --gnutls=/usr/lib/libgnutls.so --nspr=/usr/lib/libnspr4.so
+```
+
 ### Git fetch all repos in a folder
 
 ```
