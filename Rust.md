@@ -147,6 +147,11 @@ sudo pacman -S php
 cargo install cargo-php
 ```
 
+```
+# https://github.com/nextest-rs/nextest
+sudo pacman -S cargo-nextest
+```
+
 ### Tips
 
 ```
