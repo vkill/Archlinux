@@ -22,6 +22,10 @@ sudo chmod +x /usr/local/bin/rust-analyzer
 sudo pacman -S rust-analyzer
 ```
 
+```shell
+sudo pacman -S pkgconfig
+```
+
 ```
 # Tips
 vim ~/.xrc
