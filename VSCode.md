@@ -60,6 +60,21 @@ https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml
 
 https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright
 
+#### vscode-proto3
+
+```shell
+yay -S clang-format-all-git
+```
+
+```
+{
+    "clang-format.style": "{ IndentWidth: 4, BasedOnStyle: google, AlignConsecutiveAssignments: true }",
+    "[proto3]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+}
+```
+
 ### Tips
 
 [Install extension manually](https://stackoverflow.com/questions/42017617/how-to-install-vs-code-extension-manually)
