@@ -31,7 +31,8 @@ https://mirrors.163.com/.help/archlinux-cn.html
 sudo vim /etc/pacman.conf
 
 [archlinuxcn]
-SigLevel = Optional TrustedOnly
+SigLevel = Optional TrustedAll
+# SigLevel = Optional TrustedOnly
 Server = https://mirrors.bfsu.edu.cn/archlinuxcn/$arch
 Server = http://mirrors.163.com/archlinux-cn/$arch
 ```
