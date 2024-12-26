@@ -4,9 +4,12 @@
 
 ```
 sudo pacman -S rdesktop
+```
 
+### VNC client
+
+```
 sudo pacman -S remmina libvncserver
-yay -S remmina-plugin-rdesktop
 ```
 
 ### UI and UX
