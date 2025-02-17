@@ -91,6 +91,23 @@ ar = "/usr/bin/x86_64-w64-mingw32-ar"
 cargo build --release --target "x86_64-pc-windows-gnu"
 ```
 
+#### With cross
+
+```
+cargo install cross --git https://github.com/cross-rs/cross
+
+rustup target add aarch64-unknown-linux-musl
+sudo pacman -S aarch64-linux-gnu-binutils
+
+rustup target add armv7-unknown-linux-musleabi
+yay -S armv7l-linux-gnueabihf-binutils
+
+rustup target add mipsel-unknown-linux-musl
+yay -S mipsel-linux-gnu-binutils
+
+sudo pacman -S upx
+```
+
 ### Binaries
 
 ```
