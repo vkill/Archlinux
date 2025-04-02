@@ -42,9 +42,10 @@ https://chrome.google.com/webstore/detail/awesome-screenshot-screen/nlipoenfbbik
 
 https://chrome.google.com/webstore/detail/json-handle/iahnhfdhidomcpggpaimmmahffihkfnj
 
-* Proxy SwitchyOmega
+* Proxy SwitchyOmega / SmartProxy
 
 https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif
+https://chromewebstore.google.com/detail/smartproxy/jogcnplbkgkfdakgdenhlpcfhjioidoj
 
 Profile -> Bypass List
 
