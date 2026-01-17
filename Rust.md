@@ -38,6 +38,14 @@ sudo mv ~/.cargo /media/data
 ln -sf /media/data/.cargo ~/.cargo
 ```
 
+```shell
+sudo pacman -S sccache
+
+vim ~/.cargo/config.toml
+[build]
+rustc-wrapper = "/usr/bin/sccache"
+```
+
 ### Cross compiling
 
 ```
