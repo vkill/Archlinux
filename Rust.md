@@ -46,6 +46,15 @@ vim ~/.cargo/config.toml
 rustc-wrapper = "/usr/bin/sccache"
 ```
 
+```shell
+sudo pacman -S mold
+
+vim ~/.cargo/config.toml
+[target.x86_64-unknown-linux-gnu]
+linker = "/usr/bin/clang"
+rustflags = ["-C", "link-arg=-fuse-ld=/usr/bin/mold"]
+```
+
 ### Cross compiling
 
 ```
