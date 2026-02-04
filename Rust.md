@@ -55,6 +55,20 @@ linker = "/usr/bin/clang"
 rustflags = ["-C", "link-arg=-fuse-ld=/usr/bin/mold"]
 ```
 
+```shel
+vim ~/.cargo/config.toml
+
+# https://mirrors.tuna.tsinghua.edu.cn/help/crates.io-index/
+[source.crates-io]
+replace-with = 'mirror'
+
+[source.mirror]
+registry = "sparse+https://mirrors.tuna.tsinghua.edu.cn/crates.io-index/"
+
+[registries.mirror]
+index = "sparse+https://mirrors.tuna.tsinghua.edu.cn/crates.io-index/"
+```
+
 ### Cross compiling
 
 ```
