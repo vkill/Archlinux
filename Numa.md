@@ -50,9 +50,29 @@ open http://numa.numa
 
 ```shell
 sudo vim /etc/numa.toml
+[proxy]
+enabled = true
+port = 80
+tls_port = 443
+tld = "numa"
+bind_addr = "0.0.0.0"
+
+sudo systemctl restart numa
+```
+
+```shell
+sudo vim /etc/numa.toml
 [[services]]
 name = "frontend"
 target_port = 5173
+
+sudo systemctl restart numa
+```
+
+```shell
+sudo vim /etc/numa.toml
+[mobile]
+enabled = true
 
 sudo systemctl restart numa
 ```
