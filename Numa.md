@@ -77,3 +77,8 @@ enabled = true
 sudo systemctl restart numa
 ```
 
+### Phone
+
+```shell
+numa setup-phone
+```
