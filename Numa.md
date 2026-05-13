@@ -19,6 +19,8 @@ sudo systemctl disable systemd-resolved-varlink.socket
 
 sudo systemctl start numa
 sudo systemctl enable numa
+
+sudo journalctl -t numa -f
 ```
 
 ```shell
