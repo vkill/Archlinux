@@ -38,6 +38,11 @@ search numa
 ```
 
 ```shell
+dig @127.0.0.1 numa.numa
+dig numa.numa
+```
+
+```shell
 open http://numa.numa
 ```
 
