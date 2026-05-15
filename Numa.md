@@ -62,19 +62,16 @@ sudo systemctl restart numa
 
 ```shell
 sudo vim /etc/numa.toml
-[[services]]
-name = "frontend"
-target_port = 5173
-
-sudo systemctl restart numa
-```
-
-```shell
-sudo vim /etc/numa.toml
 [mobile]
 enabled = true
 
 sudo systemctl restart numa
+```
+
+### Services
+
+```shell
+curl http://127.0.0.1:5380/services -d '{"name": "frontend", "target_port": 5173, "persist": true}' -H 'content-type: application/json' -v
 ```
 
 ### Phone
