@@ -3,9 +3,7 @@
 ### Install
 
 ```shell
-yay -S numa-git
-
-sudo numa install
+sudo pacman -S numa
 ```
 
 ```shell
@@ -17,7 +15,7 @@ sudo systemctl disable systemd-resolved
 sudo systemctl disable systemd-resolved-monitor.socket
 sudo systemctl disable systemd-resolved-varlink.socket
 
-sudo systemctl start numa
+sudo systemctl restart numa
 sudo systemctl enable numa
 
 sudo journalctl -t numa -f
@@ -26,7 +24,8 @@ sudo journalctl -t numa -f
 ```shell
 sudo vim /etc/numa.toml
 [upstream]
-address = ["114.114.114.114"]
+mode = "forward"
+address = ["https://dns.quad9.net/dns-query"]
 
 sudo systemctl restart numa
 ```
@@ -44,6 +43,14 @@ dig numa.numa
 
 ```shell
 open http://numa.numa
+```
+
+```shell
+sudo ls -al /var/lib/numa/
+
+sudo trust anchor /var/lib/numa/ca.pem
+
+curl https://numa.numa --head -v
 ```
 
 ### Configurate
@@ -69,6 +76,10 @@ sudo systemctl restart numa
 ```
 
 ### Services
+
+```shell
+curl http://127.0.0.1:5380/services
+```
 
 ```shell
 curl http://127.0.0.1:5380/services -d '{"name": "frontend", "target_port": 5173, "persist": true}' -H 'content-type: application/json' -v
